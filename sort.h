@@ -96,6 +96,18 @@ void insertion_sort_list(listint_t **list);
  */
 void selection_sort(int *array, size_t size);
 
-/* (Add descriptions for other sorting algorithms here) */
+/**
+ * quick_sort - Sort an array of integers in ascending
+ *              order using the quicksort algorithm.
+ * @array: An array of integers.
+ * @size: The size of the array.
+ *
+ * Description: This function sorts the array of integers in
+ *ascending order using
+ * the quicksort algorithm with the Lomuto partition scheme.
+ *It prints the array
+ * after each swap of two elements.
+ */
+void quick_sort(int *array, size_t size);
 
 #endif /* SORT_H */
