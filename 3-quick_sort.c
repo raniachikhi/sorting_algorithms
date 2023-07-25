@@ -10,13 +10,14 @@ void quick_sort(int *array, size_t size);
  * @a: Pointer to the first integer to swap.
  * @b: Pointer to the second integer to swap.
  *
- * Description: This function swaps the values of two integers pointed to by a and b.
+ * Description: This function swaps the values of two
+ *integers pointed to by a and b.
  */
 void swap_ints(int *a, int *b)
 {
-    int temp = *a;
-    *a = *b;
-    *b = temp;
+	int temp = *a;
+	*a = *b;
+	*b = temp;
 }
 
 /**
@@ -62,7 +63,7 @@ int lomuto_partition(int *array, size_t size, int left, int right)
 		print_array(array, size);
 	}
 
-	return up;
+	return (up);
 }
 
 /**
